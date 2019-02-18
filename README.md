@@ -24,14 +24,7 @@ jupyter notebook \
 nvidia-docker run --rm --name PyCUDA \
 -p 8888:8888 \
 --volume=$HOME/pycuda:/root \
--ti izone/pycuda:9.2 \
-jupyter notebook \
-	--allow-root \
-	--ip=0.0.0.0 \
-	--no-browser \
-	--port=8888 \
-	--notebook-dir=/root \
-	--NotebookApp.token=''
+-ti izone/pycuda:9.2 python
 ```
 
 -----
