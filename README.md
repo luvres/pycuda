@@ -3,7 +3,7 @@
 
 ### Pull image
 ```
-docker pull izone/pycuda 
+docker pull izone/pycuda
 ```
 ### Run
 #### Jupyter Notebook
