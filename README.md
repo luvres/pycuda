@@ -21,8 +21,7 @@ jupyter notebook \
 	--NotebookApp.token=''
 ```
 ```
-nvidia-docker run --rm --name PyCUDA \
--p 8888:8888 \
+nvidia-docker run --rm --name PyCUDA92 \
 --volume=$HOME/pycuda:/root \
 -ti izone/pycuda:9.2 python
 ```
