@@ -38,5 +38,8 @@ http://localhost:8888/
 docker build -t izone/pycuda .
 ```
 ```
+docker build -t izone/pycuda:10.0 .
+```
+```
 docker build -t izone/pycuda:cuda-9.2 ./9.2/
 ```

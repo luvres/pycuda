@@ -16,9 +16,7 @@ RUN cd \
     && rm ${MINICONDA} \
   \
     && conda install -y numpy jupyter \
-    && pip install pycuda \
-  \
-    && PATH=${PATH}:/usr/local/miniconda3/bin
+    && pip install pycuda
 
 WORKDIR /root
 
